@@ -1,0 +1,2 @@
+# This file will basically have all the code that is something related to reading the data.
+# So after ingesting the data, we try to transform that particular data. So for this we are going to create another file as data_transform.
