@@ -1,3 +1,5 @@
+# Whenever we install this requirements.txt then at that point of time the setup.py file should run to build the packages. So, to enable this we write -e, that will connect/triger to setup.py .
+
 pandas
 numpy
 seaborn
@@ -5,5 +7,5 @@ matplotlib
 scikit-learn
 catboost
 xgboost
-# -e .
-# It will automatically trigger setup.py file.
+dill
+# -e . # It will automatically trigger setup.py file and MLproject.egg-info file will get created and this file tells that all the packages get installed.
