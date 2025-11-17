@@ -8,4 +8,5 @@ scikit-learn
 catboost
 xgboost
 dill
+Flask
 # -e . # It will automatically trigger setup.py file and MLproject.egg-info file will get created and this file tells that all the packages get installed.
